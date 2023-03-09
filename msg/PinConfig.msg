@@ -1,8 +1,7 @@
-uint8 DIR_DISABLED=0
-uint8 DIR_INPUT=1
-uint8 DIR_OUTPUT=2
-uint8 TYPE_DIGITAL=0
-uint8 TYPE_ANALOG=1
+uint8 MODE_DISABLED=0
+uint8 MODE_DIGITAL_INPUT=1
+uint8 MODE_DIGITAL_OUTPUT=2
+uint8 MODE_ANALOG_INPUT=3
+uint8 MODE_ANALOG_OUTPUT=4
 uint8 pin_nr
-uint8 direction
-uint8 type
+uint8 pin_mode
