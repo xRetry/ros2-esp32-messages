@@ -1,0 +1,6 @@
+bool read_only
+BoardConfig new_config
+---
+BoardConfig active_config
+uint8 connection_error
+uint8[36] pin_error
