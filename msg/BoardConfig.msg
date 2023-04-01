@@ -5,7 +5,7 @@ uint8 MODE_ANALOG_INPUT=3
 uint8 MODE_ANALOG_OUTPUT=4
 bool use_wifi
 string agent_ip
-uint8 agent_port
+uint32 agent_port
 string wifi_ssid
 string wifi_pw
 uint32 refresh_rate_ms
