@@ -1,6 +1,13 @@
-bool read_only
-BoardConfig new_config
+bool change_pins
+PinConfig new_pin_config
+bool change_node
+NodeConfig new_node_config
+bool change_transport
+TransportConfig new_transport_config
 ---
-BoardConfig active_config
-uint8 connection_error
+PinConfig active_pin_config
 uint8[36] pin_error
+NodeConfig active_node_config
+uint8 node_error
+TransportConfig active_transport_config
+uint8 transport_error

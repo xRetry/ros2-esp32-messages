@@ -1,0 +1,5 @@
+string node_name
+string publisher_name
+string subscriber_name
+string service_name
+uint32 refresh_rate_ms
