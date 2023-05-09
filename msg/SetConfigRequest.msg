@@ -1,0 +1,6 @@
+bool change_pins
+PinConfig new_pin_config
+bool change_node
+#NodeConfig new_node_config
+bool change_transport
+#TransportConfig new_transport_config
