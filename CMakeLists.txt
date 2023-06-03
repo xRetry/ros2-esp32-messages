@@ -15,9 +15,6 @@ find_package(rosidl_default_generators REQUIRED)
 
 set(msg_files
   "msg/PinValues.msg"
-  "msg/PinConfig.msg"
-  "msg/NodeConfig.msg"
-  "msg/TransportConfig.msg"
   "srv/SetConfig.srv"
 )
 rosidl_generate_interfaces(${PROJECT_NAME}
