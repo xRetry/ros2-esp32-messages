@@ -1,5 +1,5 @@
 bool read_only
-uint8[36] pin_modes
+uint8[40] pin_modes
 ---
-uint8[36] pin_errors
-uint8[36] pin_modes
+int32[40] pin_errors
+uint8[40] pin_modes
